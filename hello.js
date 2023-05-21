@@ -1,7 +1,7 @@
 function hello(str) {
-    const string = "world";
+    const str = "world";
 
-    alert('Hello, ' + string + '!');
+    alert('Hello, ' + str + '!');
 };
 
 module.exports = hello;
