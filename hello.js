@@ -1,5 +1,7 @@
 function hello(str) {
-    // Add your solution here!
+    const string = "world";
+
+    alert('Hello, ' + string + '!');
 };
 
 module.exports = hello;
