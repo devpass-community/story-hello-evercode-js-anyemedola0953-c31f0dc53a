@@ -1,6 +1,5 @@
 function hello(str) {
-    str = "Hello" + " " + "World!";
-    str = "Hello".concat(" ", "World!");
+   return `Hello, ${str}!`;
 };
 
 module.exports = hello;
